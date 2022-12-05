@@ -1,0 +1,22 @@
+.App{
+  width: 320px;
+  height: 600px;
+  max-height: 800px;
+  min-width: 320px;
+  padding: 16px;
+  border-radius: 24px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 20px 20px 100px #000,inset -20px -20px 100px rgb(34, 32, 32),5px 5px 5px #000;
+  background-image: url("../src/assets/themes/t3.jpg");
+}
+
+@media screen and (max-width:450px){
+ .App{
+  width: 90vw;
+  height: 95vh;
+ }
+
+
+}
